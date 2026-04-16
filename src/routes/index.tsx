@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { ArrowDown } from "lucide-react";
-import { FaYoutube, FaTiktok, FaDiscord, FaGithub } from "react-icons/fa6";
+import { FaYoutube, FaTiktok, FaGithub } from "react-icons/fa6";
 import type { IconType } from "react-icons";
 import { setupSections } from "../data/setup";
 import { projects } from "../data/projects";
@@ -20,10 +20,9 @@ export const Route = createFileRoute("/")({
 });
 
 const links: Array<{ name: string; href: string; icon: IconType }> = [
-  { name: "YouTube", href: "https://youtube.com", icon: FaYoutube },
-  { name: "TikTok", href: "https://tiktok.com", icon: FaTiktok },
-  { name: "Discord", href: "https://discord.com", icon: FaDiscord },
-  { name: "GitHub", href: "https://github.com", icon: FaGithub },
+  { name: "YouTube", href: "https://www.youtube.com/@creepsinthecloset", icon: FaYoutube },
+  { name: "TikTok", href: "https://www.tiktok.com/@unloadedclips_", icon: FaTiktok },
+  { name: "GitHub", href: "https://github.com/BombedByXander/", icon: FaGithub },
 ];
 
 function Home() {
